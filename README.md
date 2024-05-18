@@ -30,33 +30,3 @@ var dotProduct = dot(toCam, myRotation); // Dot product to determine orientation
 thisLayer.opacity = (dotProduct > 0) ? 0 : 100; // Opacity is 0 if front face is towards the camera, 100 if back face is
 // Swap the values (0 and 100) in the line above if the opposite visibility effect is desired
 ```
-
-## Contributing
-If you have ideas for improvements or find a bug, please feel free to fork this repository, make changes, and submit a pull request! We appreciate any contributions that improve the functionality and usability of this expression.
-
-## License
-This project is licensed under the MIT License. Below is a summary and the full text can be found in the LICENSE file in this repository:
-
-```
-MIT License
-
-Copyright (c) [year] [your name or organization]
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-```
